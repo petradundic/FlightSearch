@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35514.174
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightSearch.Server", "FlightSearch.Server\FlightSearch.Server.csproj", "{FE788E36-AFB0-4811-AB2C-40AE5C8BB4BB}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "flightsearch.client", "flightsearch.client\flightsearch.client.esproj", "{30097A54-D703-4560-8138-EB2288505B8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightSearch.DataAccess", "FlightSearch.DataAccess\FlightSearch.DataAccess.csproj", "{1C62FFB8-5526-4F84-93A2-FC02010775C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightSearch.Models", "FlightSearch.Models\FlightSearch.Models.csproj", "{8A879953-CE9B-448D-AF7E-2809E3D053E9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE788E36-AFB0-4811-AB2C-40AE5C8BB4BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE788E36-AFB0-4811-AB2C-40AE5C8BB4BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE788E36-AFB0-4811-AB2C-40AE5C8BB4BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE788E36-AFB0-4811-AB2C-40AE5C8BB4BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30097A54-D703-4560-8138-EB2288505B8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30097A54-D703-4560-8138-EB2288505B8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30097A54-D703-4560-8138-EB2288505B8C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{30097A54-D703-4560-8138-EB2288505B8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30097A54-D703-4560-8138-EB2288505B8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30097A54-D703-4560-8138-EB2288505B8C}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{1C62FFB8-5526-4F84-93A2-FC02010775C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C62FFB8-5526-4F84-93A2-FC02010775C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C62FFB8-5526-4F84-93A2-FC02010775C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C62FFB8-5526-4F84-93A2-FC02010775C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A879953-CE9B-448D-AF7E-2809E3D053E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A879953-CE9B-448D-AF7E-2809E3D053E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A879953-CE9B-448D-AF7E-2809E3D053E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A879953-CE9B-448D-AF7E-2809E3D053E9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

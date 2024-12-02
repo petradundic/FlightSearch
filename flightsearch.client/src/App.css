@@ -1,0 +1,10 @@
+﻿#root {
+    max-width: 1280px;
+    margin: 0 auto; /* Keep centered horizontally */
+    padding: 2rem;
+}
+
+th, td {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
